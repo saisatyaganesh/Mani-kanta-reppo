@@ -1,0 +1,105 @@
+!SESSION 2021-09-17 17:49:36.901 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-09-17 17:49:54.986
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-17 17:49:54.986
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f2a3b37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@323b0632,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-17 17:50:00.899
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ganesh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-09-17 17:51:08.262
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-09-17 17:51:12.682
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:51:13.954
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:51:14.649
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:51:35.350
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:51:35.531
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:52:21.110
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:52:23.534
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-09-17 17:52:23.591
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.egit.core 4 0 2021-09-17 17:56:04.705
+!MESSAGE An exception occurred during push on URI https://github.com/saisatyaganesh/Mani-kanta-reppo.git: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-09-17 17:56:04.708
+!MESSAGE Can't connect to any repository: https://github.com/saisatyaganesh/Mani-kanta-reppo.git (https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-09-17 17:58:23.288
+!MESSAGE An exception occurred during push on URI https://github.com/saisatyaganesh/Mani-kanta-reppo.git: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-09-17 17:59:13.708
+!MESSAGE An exception occurred during push on URI https://github.com/saisatyaganesh/Mani-kanta-reppo.git: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/saisatyaganesh/Mani-kanta-reppo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
